@@ -109,6 +109,22 @@ main {
   font-size: 11px;
 }
 
+.pagination {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.pagination p {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  color: #fff;
+  background-color: #acabab;
+  border-radius: 3px;
+  line-height: 30px;
+}
+
 .sidebar {
   width: 230px;
 }
@@ -119,25 +135,25 @@ main {
   line-height: 0.6;
 }
 
-.saidebar-content {
+.sidebar-contents {
   padding: 50px 0;
 }
 
-.popular,
+.popular-text,
 .categories-text {
   padding-bottom: 5px;
   border-bottom: 1px solid #f7f7f7;
   margin-bottom: 5px;
 }
 
-.popular-text,
-.categories-text {
+.popular-text:last-child,
+.categories-text:last-child {
   margin: 0;
   padding: 0;
   border: none;
 }
 
-.instagram .saidebar-content {
+.instagram .sidebar-contents {
   display: flex;
   flex-wrap: wrap;
 }
